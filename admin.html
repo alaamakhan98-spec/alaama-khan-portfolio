@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #111;
+      color: white;
+      padding: 20px;
+    }
+
+    .box {
+      max-width: 500px;
+      margin: auto;
+      background: #222;
+      padding: 20px;
+      border-radius: 15px;
+    }
+
+    input, textarea, button {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border-radius: 8px;
+      border: none;
+    }
+
+    button {
+      background: #00c853;
+      color: white;
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="box">
+  <h1>Admin Panel</h1>
+
+  <label>Website Name</label>
+  <input type="text" placeholder="Enter website name">
+
+  <label>About Me</label>
+  <textarea rows="5" placeholder="Write about yourself"></textarea>
+
+  <label>Upload Photo</label>
+  <input type="file" accept="image/*">
+
+  <button>Save Changes</button>
+</div>
+
+</body>
+</html>
